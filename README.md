@@ -1,10 +1,14 @@
-# Example how does it work?
+#AIrine
+
+AIrine is a decentralized local node system designed for Android devices in technically limited regions. Each node runs a lightweight Express.js server that exposes an open API, enabling local access to essential AI tools and data without an internet connection. A Next.js client leverages WebRTC to interact with AI agents, simplifying the user interface through real-time streaming. Built to operate with limited hardware resources and non-GPU models, AIrine ensures a secure, autonomous, and offline-capable environment while supporting seamless updates when connectivity is available.
+
+## Example how does it work?
 
 <img src="https://github.com/moneymessgame/AIrine/blob/main/media/show-android-localhost.gif" width="250">
 
 
 
-# Tiny Llama API Server
+## Tiny Llama API Server
 
 
 
