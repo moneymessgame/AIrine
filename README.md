@@ -1,3 +1,7 @@
+
+[Example created localhost server](https://github.com/moneymessgame/AIrine/blob/main/media/show-android-localhost.gif)
+
+
 # Tiny Llama API Server
 
 
