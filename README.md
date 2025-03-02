@@ -1,3 +1,4 @@
+<img src="https://github.com/moneymessgame/AIrine/blob/main/media/show-android-localhost.gif" width="300">
 
 
 ![Example created localhost server](https://github.com/moneymessgame/AIrine/blob/main/media/show-android-localhost.gif)
