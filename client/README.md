@@ -102,7 +102,7 @@ The application will be available at `http://localhost:3000`.
 
 **One-click deployment**
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fairine&env=OPENAI_API_KEY&envDescription=OpenAI%20Key%20(Realtime%20API%20Beta%20access)&envLink=https%3A%2F%2Fplatform.openai.com%2Fapi-keys&project-name=airine&repository-name=airine-clone&demo-title=AIrine%20-%20Voice%20Assistant%20for%20Presentations&demo-description=Intelligent%20voice%20assistant%20for%20presentations%20using%20OpenAI%20Realtime%20API)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmoneymessgame%2Fairine&env=OPENAI_API_KEY&envDescription=OpenAI%20Key%20(Realtime%20API%20Beta%20access)&envLink=https%3A%2F%2Fplatform.openai.com%2Fapi-keys&project-name=airine&repository-name=airine-clone&demo-title=AIrine%20-%20Voice%20Assistant%20for%20Presentations&demo-description=Intelligent%20voice%20assistant%20for%20presentations%20using%20OpenAI%20Realtime%20API)
 
 ## FAQ
 
