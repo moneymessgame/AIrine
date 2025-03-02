@@ -1,7 +1,7 @@
-<img src="https://github.com/moneymessgame/AIrine/blob/main/media/show-android-localhost.gif" width="300">
+# Example how does it work?
 
+<img src="https://github.com/moneymessgame/AIrine/blob/main/media/show-android-localhost.gif" width="250">
 
-![Example created localhost server](https://github.com/moneymessgame/AIrine/blob/main/media/show-android-localhost.gif)
 
 
 # Tiny Llama API Server
