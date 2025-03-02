@@ -8,7 +8,7 @@ Each AIrine node functions as a complete, self-contained unit that:
 
 - **Operates a Local Server**: Runs a lightweight Express.js server directly on Android devices, exposing API endpoints that can be accessed locally from the same device
 - **Functions Completely Offline**: Delivers full AI capabilities and information access in environments with limited or no internet connectivity
-- **Optimizes for Resource Constraints**: Utilizes specialized nonGPU language models specifically designed for hardware-limited Android devices
+- **Optimizes for Resource Constraints**: Utilizes specialized non-GPU language models specifically designed for hardware-limited Android devices
 - **Synchronizes When Possible**: Automatically updates and shares data with other nodes when internet connectivity becomes available
 
 The client interface, built with Next.js, leverages WebRTC technology to enable intuitive voice interaction with AI agents. This dramatically simplifies the user experience by eliminating complex text inputs, making powerful AI tools accessible to users with varying levels of technical literacy.
@@ -29,81 +29,80 @@ The client interface, built with Next.js, leverages WebRTC technology to enable 
 
 By creating a "boxed solution" that works without external dependencies, AIrine effectively addresses the challenge of information access in technically constrained environments, providing an autonomous, secure, and resilient AI infrastructure where traditional solutions fail.
 
-## Основные возможности
+## Main Features
 
-- **Голосовое управление**: Управление презентацией с помощью голосовых команд на русском и английском языках
-- **Навигация по слайдам**: Переход к конкретному слайду по номеру или названию
-- **Информация о времени**: Получение текущего времени по голосовой команде
-- **Мультиязычность**: Полная поддержка русского и английского языков для интерфейса и голосовых команд
-- **Информация о проекте**: Доступ к подробной информации о проекте через голосовые команды
+- **Voice Control**: Control the presentation with voice commands in Russian and English
+- **Slide Navigation**: Navigate to a specific slide by number or name
+- **Time Information**: Get the current time by voice command
+- **Multilingual Support**: Full support for Russian and English for the interface and voice commands
+- **Project Information**: Access detailed information about the AIrine project through voice commands
 
-## Технологии
+## Technologies
 
-- **TypeScript**: Обеспечение типобезопасности и улучшенный опыт разработки
-- **Next.js 15**: Фреймворк для серверного рендеринга и API маршрутов
-- **OpenAI Realtime API**: Обработка и распознавание голосовых команд в реальном времени
-- **WebRTC**: Технология для передачи аудио потока
-- **Tailwind CSS**: Стилизация компонентов
-- **Framer Motion**: Создание плавных анимаций
-- **shadcn/ui**: Библиотека компонентов пользовательского интерфейса
-- **next-intl**: Локализация и интернационализация приложения
+- **TypeScript**: Ensures type safety and a better development experience
+- **Next.js 15**: Framework for server-side rendering and API routes
+- **OpenAI Realtime API**: Processes and recognizes voice commands in real-time
+- **WebRTC**: Technology for streaming audio data
+- **Tailwind CSS**: Component styling
+- **Framer Motion**: Smooth animation creation
+- **shadcn/ui**: User interface component library
+- **next-intl**: Application localization and internationalization
 
-## Требования
+## Requirements
 
-- **Node.js** (версия 18 или выше)
-- Ключ OpenAI API с доступом к Realtime API Beta
-- Современный браузер с поддержкой WebRTC
+- **Node.js** (version 18 or higher)
+- OpenAI API key with access to the Realtime API Beta
+- Modern browser with WebRTC support
 
-## Установка
+## Installation
 
-### 1. Клонирование репозитория
+### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/airine.git
+git clone https://github.com/moneymessgame/airine.git
 cd airine
 ```
 
-### 2. Настройка окружения
-Создайте файл `.env` в корневой директории проекта:
+### 2. Set up the environment
+Create a `.env` file in the project root directory:
 ```env
-OPENAI_API_KEY=ваш-ключ-openai-api
+OPENAI_API_KEY=your-openai-api-key
 ```
 
-### 3. Установка зависимостей
+### 3. Install dependencies
 ```bash
 npm install
 ```
 
-### 4. Запуск приложения
+### 4. Run the application
 ```bash
 npm run dev
 ```
 
-Приложение будет доступно по адресу `http://localhost:3000`.
+The application will be available at `http://localhost:3000`.
 
-## Использование
+## Usage
 
-1. Откройте приложение в браузере: `http://localhost:3000`
-2. Разрешите доступ к микрофону при запросе браузера
-3. Начните сеанс голосового управления, нажав на кнопку микрофона
-4. Используйте следующие голосовые команды:
-   - «Перейти к слайду [номер]» — переход к конкретному слайду
-   - «Следующий слайд» / «Предыдущий слайд» — навигация между слайдами
-   - «Который час» — показ текущего времени
-   - «Сменить тему» — переключение между светлой и темной темами
-   - «Режим вечеринки» — активация анимированного фона
-   - «Расскажи о проекте» — получение информации о проекте AIrine
+1. Open the app in the browser: `http://localhost:3000`
+2. Allow microphone access when prompted by the browser
+3. Start the voice control session by clicking the microphone button
+4. Use the following voice commands:
+   - "Go to slide [number]" — Navigate to a specific slide
+   - "Next slide" / "Previous slide" — Move between slides
+   - "What time is it?" — Display the current time
+   - "Change theme" — Switch between light and dark themes
+   - "Party mode" — Activate an animated background
+   - "Tell me about the project" — Get information about the AIrine project
 
-## Команда разработчиков
+## Development Team
 
-- **Игорь Соколов** — Руководитель проекта и ведущий разработчик
-- **Ирина Семичасова** — Разработчик и дизайнер
+- **Igor Sokolov** — Project Lead and Senior Developer
+- **Irina Semichasova** — Developer and Designer
 
+## Deployment on Vercel
 
-## Развертывание на Vercel
+**One-click deployment**
 
-**Развертывание в один клик**
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fairine&env=OPENAI_API_KEY&envDescription=OpenAI%20Key%20(Realtime%20API%20Beta%20access)&envLink=https%3A%2F%2Fplatform.openai.com%2Fapi-keys&project-name=airine&repository-name=airine-clone&demo-title=AIrine%20-%20Голосовой%20ассистент%20для%20презентаций&demo-description=Интеллектуальный%20голосовой%20ассистент%20для%20презентаций%20с%20использованием%20OpenAI%20Realtime%20API)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fairine&env=OPENAI_API_KEY&envDescription=OpenAI%20Key%20(Realtime%20API%20Beta%20access)&envLink=https%3A%2F%2Fplatform.openai.com%2Fapi-keys&project-name=airine&repository-name=airine-clone&demo-title=AIrine%20-%20Voice%20Assistant%20for%20Presentations&demo-description=Intelligent%20voice%20assistant%20for%20presentations%20using%20OpenAI%20Realtime%20API)
 
 ## FAQ
 
@@ -122,13 +121,12 @@ The local node provides access to essential AI tools including natural language 
 ### What languages are supported?
 Currently, AIrine supports Russian (primary) and English. The modular architecture allows for relatively simple addition of new languages as the project develops.
 
+## License
+This project is distributed under the MIT License. See the `LICENSE` file for more details.
 
-## Лицензия
-Этот проект распространяется под лицензией MIT. Подробности см. в файле `LICENSE`.
-
-## Благодарности
-- [OpenAI](https://openai.com/) за их API и модели
-- [Next.js](https://nextjs.org/) за фреймворк
-- [Tailwind CSS](https://tailwindcss.com/) за стилизацию
-- [shadcn/ui](https://ui.shadcn.com/) за компоненты пользовательского интерфейса
-- [Framer Motion](https://www.framer.com/motion/) за анимации
+## Acknowledgements
+- [OpenAI](https://openai.com/) for their API and models
+- [Next.js](https://nextjs.org/) for the framework
+- [Tailwind CSS](https://tailwindcss.com/) for styling
+- [shadcn/ui](https://ui.shadcn.com/) for UI components
+- [Framer Motion](https://www.framer.com/motion/) for animations
