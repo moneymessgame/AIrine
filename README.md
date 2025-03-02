@@ -1,7 +1,6 @@
 
-![Описание GIF](путь/к/файлу.gif)
 
-[Example created localhost server](https://github.com/moneymessgame/AIrine/blob/main/media/show-android-localhost.gif)
+![Example created localhost server](https://github.com/moneymessgame/AIrine/blob/main/media/show-android-localhost.gif)
 
 
 # Tiny Llama API Server
