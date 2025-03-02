@@ -1,0 +1,15 @@
+{
+    "unstable": [
+      "unsafe-proto",
+      "sloppy-imports"
+    ],
+    "compilerOptions": {
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+      "strict": true,
+      "jsx": "preserve"
+    }
+}
