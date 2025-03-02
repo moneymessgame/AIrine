@@ -1,0 +1,41 @@
+{
+  "name": "llama-api-server",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "dev:watch": "ts-node-dev --respawn src/index.ts",
+    "clean": "rm -rf dist",
+    "rebuild": "npm run clean && npm run build",
+    "download-model": "ts-node scripts/download-model.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "llama",
+    "llm",
+    "api",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "API для подключения к локальной языковой модели типа Tiny Llama",
+  "dependencies": {
+    "@llama-node/core": "^0.1.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.8",
+    "axios": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "llama-node": "^0.1.6",
+    "next-intl": "^3.26.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
